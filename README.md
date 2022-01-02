@@ -1,2 +1,4 @@
 # Fun-Projects
-Repository where I'll put a tons of cool stuff including Python and HTML.
+In this repository I'll be posting a few of my projects that I made.
+These are all made with love and passion, and to develop my programming skills further
+More versions of each projects will be released as I get further with my programming knowledge, take care!
