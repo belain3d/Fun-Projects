@@ -1,3 +1,5 @@
+# https://github.com/belain3d/Fun-Projects #
+
 # Összegzés függvény: összegzi egy adott lista/számsor számait | Sum of list elements.
 
 def osszegzes(lista):
