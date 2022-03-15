@@ -1,7 +1,7 @@
 from enum import Enum
 import random
 
-print("We welcome you to this adventure game!\nThis program was made by belain3d")
+print("Text-Based RPG by belain3d")
 
 class Races(Enum):
     KHAJIIT = "Khajiit"
@@ -31,7 +31,6 @@ playerCharacter = False
 confirmation = ""
 while confirmation != "y":
 
-    
     if confirmation == "n" or playerCharacter == False:
         chrName = input(f"What is your name? ")
         chrRace = input("What race are you? ")
