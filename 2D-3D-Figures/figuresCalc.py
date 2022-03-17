@@ -1,5 +1,6 @@
 # Calculation of basic 2D and 3D figures
 # Made by belain3d. Git Repo on https://github.com/belain3d/Fun-Projects #
+import math
 
 def squareroot(a):
     return a**0.5
@@ -60,10 +61,10 @@ class circle:
         self.r = radius
 
     def Area(self):
-        return 3.14*self.r**2
+        return math.pi*self.r**2
 
     def Perimeter(self):
-        return 2*3.14*self.r
+        return 2*math.pi*self.r
 
     def Diameter(self):
         return 2*self.r
@@ -92,10 +93,10 @@ class cylinder:
         self.diameter = diameter
 
     def Volume(self):
-        return 3.14*self.radius**2*self.height
+        return math.pi*self.radius**2*self.height
 
     def Base(self):
-        return 3.14*self.radius**2
+        return math.pi*self.radius**2
 
     def Wall(self):
-        return 2*3.14*self.radius*self.height 
+        return 2*math.pi*self.radius*self.height 
