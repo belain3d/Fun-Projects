@@ -98,5 +98,22 @@ class cylinder:
     def Base(self):
         return math.pi*self.radius**2
 
+    def Face(self):
+        return 2*math.pi*self.radius*(self.radius+self.height)
+
     def Wall(self):
         return 2*math.pi*self.radius*self.height 
+
+class sphere:
+    def __init__(self, radius, diagonal):
+        self.radius = radius
+        self.diagonal = diagonal
+
+    def Terfogat(self):
+        return (4/3)*math.pi*self.radius**3
+    
+    def Felszin(self):
+        return 4*math.pi*self.radius**2
+
+    def Atmero(self):
+        return 2*self.radius
